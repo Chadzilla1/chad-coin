@@ -19,6 +19,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { StatsComponent } from './stats/stats.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatDividerModule} from '@angular/material/divider';
     AppComponent,
     TwitterTimelineComponent,
     InstagramTimelineComponent,
-    NavigationComponent
+    NavigationComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,

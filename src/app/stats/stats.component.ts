@@ -1,13 +1,13 @@
-import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TwitterService } from '../twitter.service';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-twitter-timeline',
-  templateUrl: './twitter-timeline.component.html',
-  styleUrls: ['./twitter-timeline.component.scss']
+  selector: 'app-stats',
+  templateUrl: './stats.component.html',
+  styleUrls: ['./stats.component.scss']
 })
-export class TwitterTimelineComponent implements OnInit {
+export class StatsComponent implements OnInit {
 
   myTimeline: any;
   name: string;
@@ -19,18 +19,7 @@ export class TwitterTimelineComponent implements OnInit {
       console.log(params);
       this.name = this.route.snapshot.paramMap.get('name');
       this.getTwitterUserTimeline(this.name);
-
     });
-  }
-
-  getTwitterTimeline(): void {
-    this.api.getTimeline()
-      .subscribe(
-        myTimeline => {
-          this.myTimeline = myTimeline;
-          console.log(this.myTimeline);
-        }
-      )
   }
 
   getTwitterUserTimeline(name: string): void {

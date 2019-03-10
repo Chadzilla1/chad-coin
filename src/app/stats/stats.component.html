@@ -1,0 +1,13 @@
+<div *ngIf="undefined === myTimeline">Loading...</div>
+<div *ngIf="undefined !== myTimeline">
+  <mat-card>
+    <h1>Username: </h1>{{myTimeline.data[0].user.name}}
+    <h1>Location: </h1>{{myTimeline.data[0].user.location}}
+    <h1>Description: </h1>{{myTimeline.data[0].user.description}}
+    <h1>Follower Count: </h1>{{myTimeline.data[0].user.followers_count}}
+    <h1>Account Creation Date: </h1>{{myTimeline.data[0].user.created_at}}
+    <h1>Favourites Count: </h1>{{myTimeline.data[0].user.favourites_count}}
+    <h1>Tweet count: </h1>{{myTimeline.data[0].user.statuses_count}}
+
+  </mat-card>
+</div>
