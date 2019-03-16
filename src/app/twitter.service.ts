@@ -41,12 +41,6 @@ export class TwitterService {
     return promise;
   }
 
-  /* getUserTimeline(name: string) {
-    return this.http
-      .get<any[]>(this.API_URL + '/user_timeline/' + name)
-      .pipe(map(data => data)).toPromise();
-  } */
-
   getMentions() {
     let promise = new Promise((resolve, reject) => {
       this.http

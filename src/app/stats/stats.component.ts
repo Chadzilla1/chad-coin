@@ -53,7 +53,6 @@ export class StatsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getTwitterUserTimeline('jeff');
     this.getAll();
   }
 
