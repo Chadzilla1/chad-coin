@@ -17,42 +17,74 @@
   <h1>Brad's total tweets</h1> {{totalTweets[2].value}}
 
 </div> -->
-<mat-tab-group>
-  <mat-tab label="Tweets">
-    <div *ngIf="undefined !== totalTweets">
-      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalTweets" [gradient]="gradient"
-        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
-        (select)="onSelect($event)">
-      </ngx-charts-bar-vertical>
-    </div>
-  </mat-tab>
-   <mat-tab label="Followers">
-    <div *ngIf="undefined !== totalFollowers">
-      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFollowers" [gradient]="gradient"
-        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No of Followers'" [yAxisLabel]="yAxisLabel"
-        (select)="onSelect($event)">
-      </ngx-charts-bar-vertical>
-    </div>
-  </mat-tab>
-  
-  <mat-tab label="Favourites">
-    <div *ngIf="undefined !== totalFavourites">
-      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFavourites" [gradient]="gradient"
-        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No. of Favourites'" [yAxisLabel]="yAxisLabel"
-        (select)="onSelect($event)">
-      </ngx-charts-bar-vertical>
-    </div>
-  </mat-tab>
-  <mat-tab label="Friends">
-    <div *ngIf="undefined !== totalFriends">
-      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFriends" [gradient]="gradient"
-        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
-        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No. of Friends'" [yAxisLabel]="yAxisLabel"
-        (select)="onSelect($event)">
-      </ngx-charts-bar-vertical>
-    </div>
-  </mat-tab>
-</mat-tab-group>
+<div *ngIf="undefined !== totalTweets">
+  <mat-tab-group>
+    <mat-tab label="Tweets">
+      <div *ngIf="undefined !== totalTweets">
+        <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
+          [results]="totalTweets" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+        <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme" [results]="totalTweets"
+          [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
+        </ngx-charts-pie-chart>
+        <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
+          [results]="totalTweets" [gradient]="gradient" (select)="onSelect($event)">
+        </ngx-charts-advanced-pie-chart>
+      </div>
+    </mat-tab>
+    <mat-tab label="Favourites">
+      <div *ngIf="undefined !== totalFavourites">
+        <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFavourites" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis"
+          [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+        <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFavourites" [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
+        </ngx-charts-pie-chart>
+        <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFavourites" [gradient]="gradient" (select)="onSelect($event)">
+        </ngx-charts-advanced-pie-chart>
+      </div>
+    </mat-tab>
+    <mat-tab label="Followers">
+      <div *ngIf="undefined !== totalFollowers">
+        <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFollowers" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+        <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme" [results]="totalFollowers"
+          [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
+        </ngx-charts-pie-chart>
+        <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFollowers" [gradient]="gradient" (select)="onSelect($event)">
+        </ngx-charts-advanced-pie-chart>
+      </div>
+    </mat-tab>
+    <mat-tab label="Friends">
+      <div *ngIf="undefined !== totalFriends">
+        <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFriends" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+        <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme" [results]="totalFriends"
+          [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
+        </ngx-charts-pie-chart>
+        <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFriends" [gradient]="gradient" (select)="onSelect($event)">
+        </ngx-charts-advanced-pie-chart>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+  <mat-form-field>
+    <mat-select placeholder="Chart Type" [(value)]="selected">
+      <mat-option *ngFor="let chart of charts" [value]="chart.value">
+        {{chart.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

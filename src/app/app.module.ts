@@ -22,6 +22,7 @@ import { StatsComponent } from './stats/stats.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatSelectModule} from '@angular/material/select';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatDividerModule,
     NgxChartsModule,
     MatExpansionModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSelectModule
   ],
   providers: [TwitterService, HttpClientModule],
   bootstrap: [AppComponent]
