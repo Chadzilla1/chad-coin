@@ -17,7 +17,7 @@
   <h1>Brad's total tweets</h1> {{totalTweets[2].value}}
 
 </div> -->
-<div *ngIf="undefined !== totalTweets">
+<div *ngIf="undefined !== totalTweets" class="myClass">
   <mat-tab-group>
     <mat-tab label="Tweets">
       <div *ngIf="undefined !== totalTweets">
@@ -39,7 +39,7 @@
         <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
           [results]="totalFavourites" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis"
           [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
-          [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+          [xAxisLabel]="xAxisLabel" [yAxisLabel]="'Favourites'" (select)="onSelect($event)">
         </ngx-charts-bar-vertical>
         <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme"
           [results]="totalFavourites" [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
@@ -54,7 +54,7 @@
         <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
           [results]="totalFollowers" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
           [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
-          [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+          [yAxisLabel]="'Followers'" (select)="onSelect($event)">
         </ngx-charts-bar-vertical>
         <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme" [results]="totalFollowers"
           [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
@@ -69,7 +69,7 @@
         <ngx-charts-bar-vertical *ngIf="selected === 'bar-vertical'" [view]="view" [scheme]="colorScheme"
           [results]="totalFriends" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
           [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
-          [yAxisLabel]="yAxisLabel" (select)="onSelect($event)">
+          [yAxisLabel]="'Friends'" (select)="onSelect($event)">
         </ngx-charts-bar-vertical>
         <ngx-charts-pie-chart *ngIf="selected === 'pie'" [view]="view" [scheme]="colorScheme" [results]="totalFriends"
           [gradient]="gradient" [legend]="showLegend" (select)="onSelect($event)">
