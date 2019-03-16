@@ -1,4 +1,4 @@
-<div *ngIf="undefined === myTimeline">Loading...</div>
+<!-- <div *ngIf="undefined === myTimeline">Loading...</div>
 <div *ngIf="undefined !== myTimeline">
   <mat-card>
     <h1>Username: </h1>{{myTimeline.data[0].user.name}}
@@ -11,3 +11,48 @@
 
   </mat-card>
 </div>
+<div *ngIf="undefined !== totalTweets">
+  <h1>Jeff's total tweets</h1> {{totalTweets[0].value}}
+  <h1>Alex's total tweets</h1> {{totalTweets[1].value}}
+  <h1>Brad's total tweets</h1> {{totalTweets[2].value}}
+
+</div> -->
+<mat-tab-group>
+  <mat-tab label="Tweets">
+    <div *ngIf="undefined !== totalTweets">
+      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalTweets" [gradient]="gradient"
+        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+        (select)="onSelect($event)">
+      </ngx-charts-bar-vertical>
+    </div>
+  </mat-tab>
+   <mat-tab label="Followers">
+    <div *ngIf="undefined !== totalFollowers">
+      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFollowers" [gradient]="gradient"
+        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No of Followers'" [yAxisLabel]="yAxisLabel"
+        (select)="onSelect($event)">
+      </ngx-charts-bar-vertical>
+    </div>
+  </mat-tab>
+  
+  <mat-tab label="Favourites">
+    <div *ngIf="undefined !== totalFavourites">
+      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFavourites" [gradient]="gradient"
+        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No. of Favourites'" [yAxisLabel]="yAxisLabel"
+        (select)="onSelect($event)">
+      </ngx-charts-bar-vertical>
+    </div>
+  </mat-tab>
+  <mat-tab label="Friends">
+    <div *ngIf="undefined !== totalFriends">
+      <ngx-charts-bar-vertical [view]="view" [scheme]="colorScheme" [results]="totalFriends" [gradient]="gradient"
+        [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="'No. of Friends'" [yAxisLabel]="yAxisLabel"
+        (select)="onSelect($event)">
+      </ngx-charts-bar-vertical>
+    </div>
+  </mat-tab>
+</mat-tab-group>

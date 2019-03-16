@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TwitterTimelineComponent } from './twitter-timeline/twitter-timeline.component';
-import { InstagramTimelineComponent } from './instagram-timeline/instagram-timeline.component';
 import { StatsComponent } from './stats/stats.component';
 
 const routes: Routes = [
@@ -14,19 +13,12 @@ const routes: Routes = [
     component: TwitterTimelineComponent
   },
   {
-    path: 'instagram_timeline',
-    component: InstagramTimelineComponent
-  },
-  {
     path: 'stats',
     component: StatsComponent
   },
   {
-    path: 'stats/:name',
-    component: StatsComponent
-  },
-  { path: '',
-    redirectTo: '',
+    path: '',
+    redirectTo: 'TwitterTimelineComponent',
     pathMatch: 'full'
   }
 ];

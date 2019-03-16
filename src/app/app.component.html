@@ -1,25 +1,23 @@
 <mat-sidenav-container class="example-container">
-    <mat-sidenav #drawer mode="side" opened role="navigation">
-      <mat-nav-list>
-        <a mat-list-item (click)="setName(jeff)" routerLink="/{{currentComponent}}/jeff">Jeff</a>
-        <a mat-list-item (click)="setName(alex)" routerLink='/{{currentComponent}}/alex'>Alex</a>
-        <a mat-list-item (click)="setName(ben)" routerLink='/{{currentComponent}}/ben'>Ben</a>
-        <a mat-list-item (click)="setName(abby)" routerLink='/{{currentComponent}}/abby'>Abby</a>
-        <a mat-list-item (click)="setName(jason)" routerLink='/{{currentComponent}}/jason'>Jason</a>
-        <a mat-list-item (click)="setName(jan)" routerLink='/{{currentComponent}}/jan'>Jan</a>
-      </mat-nav-list>
-    </mat-sidenav>
-
+  <mat-sidenav #drawer mode="side" opened role="navigation">
+    <mat-nav-list>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Duders Twitters
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <a mat-list-item routerLink="/twitter_timeline/jeff">Jeff</a>
+        <a mat-list-item routerLink='/twitter_timeline/alex'>Alex</a>
+        <a mat-list-item routerLink='/twitter_timeline/ben'>Ben</a>
+        <a mat-list-item routerLink='/twitter_timeline/abby'>Abby</a>
+        <a mat-list-item routerLink='/twitter_timeline/jason'>Jason</a>
+        <a mat-list-item routerLink='/twitter_timeline/jan'>Jan</a>
+      </mat-expansion-panel>
+      <a mat-list-item routerLink="/stats">Stats</a>
+    </mat-nav-list>
+  </mat-sidenav>
   <mat-sidenav-content>
-      <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <a mat-button (click)="setTwitter()" routerLink="/twitter_timeline/{{name}}">Twitter</a>
-      <br>
-      <a mat-button (click)="setInstagram()" routerLink="/instagram_timeline/{{name}}">Instagram</a> 
-      <br>
-      <a mat-button (click)="setStats()" routerLink="/stats/{{name}}">Stats</a>          
-    </mat-toolbar-row>
-  </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

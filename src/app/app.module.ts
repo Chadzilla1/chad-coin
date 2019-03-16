@@ -13,20 +13,21 @@ import {MatToolbarModule} from '@angular/material';
 import {MatButtonModule} from '@angular/material';
 import { MatCardModule } from "@angular/material";
 import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
-import { InstagramTimelineComponent } from './instagram-timeline/instagram-timeline.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { NavigationComponent } from './navigation/navigation.component';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import { StatsComponent } from './stats/stats.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TwitterTimelineComponent,
-    InstagramTimelineComponent,
     NavigationComponent,
     StatsComponent
   ],
@@ -44,7 +45,10 @@ import { StatsComponent } from './stats/stats.component';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    NgxChartsModule,
+    MatExpansionModule,
+    MatTabsModule
   ],
   providers: [TwitterService, HttpClientModule],
   bootstrap: [AppComponent]

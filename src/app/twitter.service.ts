@@ -1,33 +1,62 @@
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TwitterService {
 
-  api_url = 'http://localhost:3000';
+  API_URL = 'http://localhost:3000';
+
+  results: any[];
 
   constructor(private http: HttpClient) { }
 
   getTimeline() {
-    return this.http
-      .get<any[]>(this.api_url + '/home_timeline')
-      .pipe(map(data => data));
-
+    let promise = new Promise((resolve, reject) => {
+      this.http
+        .get<any[]>(this.API_URL + '/home_timeline')
+        .pipe(map(data => data)).toPromise().then(
+          res => {
+            console.log(res);
+            this.results = res;
+            resolve();
+            return res;
+          });
+    });
   }
 
   getUserTimeline(name: string) {
-    return this.http
-      .get<any[]>(this.api_url + '/user_timeline/' + name)
-      .pipe(map(data => data));
+    let promise = new Promise((resolve, reject) => {
+      this.http
+      .get<any[]>(this.API_URL + '/user_timeline/' + name)
+        .pipe(map(data => data)).toPromise().then(
+          res => {
+          //  console.log(res);
+          //  this.results = res;
+            resolve(res);
+          });
+    });
+    return promise;
   }
 
-  getMentions() {
+  /* getUserTimeline(name: string) {
     return this.http
-      .get<any[]>(this.api_url + '/mentions_timeline')
-      .pipe(map(data => data));
+      .get<any[]>(this.API_URL + '/user_timeline/' + name)
+      .pipe(map(data => data)).toPromise();
+  } */
 
+  getMentions() {
+    let promise = new Promise((resolve, reject) => {
+      this.http
+        .get<any[]>(this.API_URL + '/mentions_timeline')
+        .pipe(map(data => data)).toPromise().then(
+          res => {
+            console.log(res);
+            resolve();
+          });
+    });
+    return promise;
   }
 }
