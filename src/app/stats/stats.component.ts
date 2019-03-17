@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { TwitterService } from '../twitter.service';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { single } from './data';
-import * as abbyJson from '../../assets/abby.json';
+/* import * as abbyJson from '../../assets/abby.json';
 import * as alexJson from '../../assets/alex.json';
 import * as benJson from '../../assets/ben.json';
 import * as bradJson from '../../assets/brad.json';
 import * as janJson from '../../assets/jan.json';
 import * as jasonJson from '../../assets/jason.json';
-import * as jeffJson from '../../assets/jeff.json';
+import * as jeffJson from '../../assets/jeff.json'; */
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -31,31 +32,32 @@ export class StatsComponent implements OnInit {
   totalFavourites: any;
   totalFriends: any;
   totalRetweets: any;
-  view: any[] = [700, 400];
+  json: any;
+  view: any[] = [350, 370];
   myTimelines: any[];
   myTimeline: any;
   selected = 'bar-vertical';
 
   charts: Chart[] = [
-    {value: 'bar-vertical', viewValue: 'Bar Chart'},
-    {value: 'pie', viewValue: 'Pie Chart'},
-    {value: 'pie-advanced', viewValue: 'Advanced Pie Chart'}
+    { value: 'bar-vertical', viewValue: 'Bar Chart' },
+    { value: 'pie', viewValue: 'Pie Chart' },
+    { value: 'pie-advanced', viewValue: 'Advanced Pie Chart' }
   ];
 
   name = 'jeff';
   showXAxis = true;
   showYAxis = true;
   gradient = false;
-  showLegend = true;
-  showXAxisLabel = true;
+  showLegend = false;
+  showXAxisLabel = false;
   xAxisLabel = 'Duders';
-  showYAxisLabel = true;
+  showYAxisLabel = false;
   yAxisLabel = 'Tweets';
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#ff80ff', '#400080', '#ff8040']
   };
 
-  constructor(private api: TwitterService) {
+  constructor(private api: TwitterService, private http: HttpClient) {
   }
 
   onSelect(event) {
@@ -63,8 +65,9 @@ export class StatsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.createDataJson();
+    //this.createDataJson();
     //this.getAll();
+    this.getAllJson();
   }
 
   getAll() {
@@ -80,6 +83,29 @@ export class StatsComponent implements OnInit {
       this.createData(values);
     }
     );
+  }
+
+  getAllJson() {
+    Promise.all([
+      this.api.getJson('jeff'),
+      this.api.getJson('alex'),
+      this.api.getJson('brad'),
+      this.api.getJson('ben'),
+      this.api.getJson('abby'),
+      this.api.getJson('jan'),
+      this.api.getJson('jason'),
+    ]).then(values => {
+      this.createData(values);
+    }
+    );
+  }
+
+  getJson(name: string) {
+    this.api.getJson(name).then(
+      res => {
+        console.log(res);
+        this.json = res;
+      });
   }
 
   getTwitterUserTimeline(name: string) {
@@ -98,11 +124,119 @@ export class StatsComponent implements OnInit {
       });
   }
 
-  createDataJson() {
+  createData(jsonArray: any[]) {
     this.totalTweets = [
       {
         "name": "jeff",
-        "value": jeffJson.default.data.statuses_count
+        "value": jsonArray[0].data.statuses_count
+      },
+      {
+        "name": "alex",
+        "value": jsonArray[1].data.statuses_count
+      },
+      {
+        "name": "brad",
+        "value": jsonArray[2].data.statuses_count
+      },
+      {
+        "name": "ben",
+        "value": jsonArray[3].data.statuses_count
+      },
+      {
+        "name": "abby",
+        "value": jsonArray[4].data.statuses_count
+      },
+      {
+        "name": "jan",
+        "value": jsonArray[5].data.statuses_count
+      }
+    ];
+    this.totalFollowers = [
+      {
+        "name": "jeff",
+        "value": jsonArray[0].data.followers_count
+      },
+      {
+        "name": "alex",
+        "value": jsonArray[1].data.followers_count
+      },
+      {
+        "name": "brad",
+        "value": jsonArray[2].data.followers_count
+      },
+      {
+        "name": "ben",
+        "value": jsonArray[3].data.followers_count
+      },
+      {
+        "name": "abby",
+        "value": jsonArray[4].data.followers_count
+      },
+      {
+        "name": "jan",
+        "value": jsonArray[5].data.followers_count
+      }
+    ];
+    this.totalFavourites = [
+      {
+        "name": "jeff",
+        "value": jsonArray[0].data.favourites_count
+      },
+      {
+        "name": "alex",
+        "value": jsonArray[1].data.favourites_count
+      },
+      {
+        "name": "brad",
+        "value": jsonArray[2].data.favourites_count
+      },
+      {
+        "name": "ben",
+        "value": jsonArray[3].data.favourites_count
+      },
+      {
+        "name": "abby",
+        "value": jsonArray[4].data.favourites_count
+      },
+      {
+        "name": "jan",
+        "value": jsonArray[5].data.favourites_count
+      }
+    ];
+    this.totalFriends = [
+      {
+        "name": "jeff",
+        "value": jsonArray[0].data.friends_count
+      },
+      {
+        "name": "alex",
+        "value": jsonArray[1].data.friends_count
+      },
+      {
+        "name": "brad",
+        "value": jsonArray[2].data.friends_count
+      },
+      {
+        "name": "ben",
+        "value": jsonArray[3].data.friends_count
+      },
+      {
+        "name": "abby",
+        "value": jsonArray[4].data.friends_count
+      },
+      {
+        "name": "jan",
+        "value": jsonArray[5].data.friends_count
+      }
+    ];
+  }
+
+  /* createDataJson() {
+    var jeff: any = jeffJson
+    this.totalTweets = [
+      {
+        "name": "jeff",
+        "value": jeff
       },
       {
         "name": "alex",
@@ -219,9 +353,9 @@ export class StatsComponent implements OnInit {
         "value": jasonJson.default.data.statuses_count
       }
     ];
-  }
+  } */
 
-  createData(timelines: any[]) {
+  /* createData(timelines: any[]) {
     this.totalTweets = [
       {
         "name": "jeff",
@@ -326,5 +460,5 @@ export class StatsComponent implements OnInit {
         "value": timelines[5].data[0].user.friends_count
       }
     ];
-  }
+  } */
 }

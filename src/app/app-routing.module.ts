@@ -18,7 +18,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'TwitterTimelineComponent',
+    redirectTo: 'twitter_timeline/jeff',
     pathMatch: 'full'
   }
 ];

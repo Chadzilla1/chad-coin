@@ -1,5 +1,5 @@
 <mat-sidenav-container class="example-container">
-  <mat-sidenav #drawer mode="side" opened role="navigation">
+  <mat-sidenav #sidenav mode="side" opened role="navigation" [(opened)]="opened">
     <mat-nav-list>
       <mat-expansion-panel>
         <mat-expansion-panel-header>
@@ -18,6 +18,9 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
+    <button mat-button (click)="sidenav.toggle()">
+      <mat-icon svgIcon="reorder"></mat-icon>
+    </button>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

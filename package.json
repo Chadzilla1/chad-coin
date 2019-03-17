@@ -24,6 +24,7 @@
     "@swimlane/ngx-charts": "^10.1.0",
     "core-js": "^2.5.4",
     "hammerjs": "^2.0.8",
+    "material-design-icons": "^3.0.1",
     "ng2-twitter": "^0.3.0",
     "ngx-twitter-timeline": "^0.1.5",
     "rxjs": "~6.3.3",

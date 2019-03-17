@@ -13,6 +13,19 @@ export class TwitterService {
 
   constructor(private http: HttpClient) { }
 
+  getJson(name: string) {
+    let promise = new Promise((resolve, reject) => {
+      return this.http.get<[]>('../../giant-bomb-angular-fresh/assets/' + name + '.json')
+        .pipe(map(data => data)).toPromise().then(
+          res => {
+            console.log(res);
+            this.results = res;
+            resolve(res);
+          });
+    });
+    return promise;
+  }
+
   getTimeline() {
     let promise = new Promise((resolve, reject) => {
       this.http

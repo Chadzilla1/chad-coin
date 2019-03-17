@@ -50,7 +50,8 @@ import {MatSelectModule} from '@angular/material/select';
     NgxChartsModule,
     MatExpansionModule,
     MatTabsModule,
-    MatSelectModule
+    MatSelectModule,
+    
   ],
   providers: [TwitterService, HttpClientModule],
   bootstrap: [AppComponent]
