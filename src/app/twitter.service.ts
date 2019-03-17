@@ -27,14 +27,28 @@ export class TwitterService {
     });
   }
 
+  getUser(id: string) {
+    let promise = new Promise((resolve, reject) => {
+      this.http
+        .get<any[]>(this.API_URL + '/users/show/' + id)
+        .pipe(map(data => data)).toPromise().then(
+          res => {
+            console.log(res);
+            this.results = res;
+            resolve(res);
+          });
+    });
+    return promise;
+  }
+
   getUserTimeline(name: string) {
     let promise = new Promise((resolve, reject) => {
       this.http
-      .get<any[]>(this.API_URL + '/user_timeline/' + name)
+        .get<any[]>(this.API_URL + '/user_timeline/' + name)
         .pipe(map(data => data)).toPromise().then(
           res => {
-          //  console.log(res);
-          //  this.results = res;
+            //  console.log(res);
+            //  this.results = res;
             resolve(res);
           });
     });

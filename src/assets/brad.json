@@ -1,0 +1,183 @@
+{
+    "data": {
+        "id": 18653813,
+        "id_str": "18653813",
+        "name": "Brad Shoemaker",
+        "screen_name": "bradshoemaker",
+        "location": "San Francisco, CA",
+        "profile_location": {
+            "id": "5a110d312052166f",
+            "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+            "place_type": "unknown",
+            "name": "San Francisco, CA",
+            "full_name": "San Francisco, CA",
+            "country_code": "",
+            "country": "",
+            "contained_within": [],
+            "bounding_box": null,
+            "attributes": {}
+        },
+        "description": "avatar: @morehandclaps, banner: @aurahack",
+        "url": "https://t.co/SSAOitq2fv",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/SSAOitq2fv",
+                        "expanded_url": "http://giantbomb.com",
+                        "display_url": "giantbomb.com",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 85628,
+        "friends_count": 560,
+        "listed_count": 2010,
+        "created_at": "Tue Jan 06 00:38:05 +0000 2009",
+        "favourites_count": 2659,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 19343,
+        "lang": "en",
+        "status": {
+            "created_at": "Fri Mar 15 13:09:35 +0000 2019",
+            "id": 1106542964275241000,
+            "id_str": "1106542964275240961",
+            "text": "@AgentTinsley it originated in a campaign to maintain Pewdiepie's status as the biggest channel on YouTube, after a… https://t.co/aIbQ4PsX1H",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "AgentTinsley",
+                        "name": "Qai Qai’s J. Jenkins",
+                        "id": 1148519803,
+                        "id_str": "1148519803",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/aIbQ4PsX1H",
+                        "expanded_url": "https://twitter.com/i/web/status/1106542964275240961",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": 1106393591302123500,
+            "in_reply_to_status_id_str": "1106393591302123520",
+            "in_reply_to_user_id": 1148519803,
+            "in_reply_to_user_id_str": "1148519803",
+            "in_reply_to_screen_name": "AgentTinsley",
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 108,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/815642552648929280/2aN6OzX6_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/815642552648929280/2aN6OzX6_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18653813/1512102474",
+        "profile_link_color": "663996",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1219",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Sun, 17 Mar 2019 15:01:00 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Sun, 17 Mar 2019 15:01:00 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_q27tQLYuhUbWH3IqRVmFpQ==\"; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:01:00 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155283486074968787; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:01:00 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "c3a30b80935a6e3bb2f8c6e57bbac2fd",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "897",
+            "x-rate-limit-reset": "1552835557",
+            "x-response-time": "181",
+            "x-transaction": "00d3d90800ace47e",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=18653813",
+                "query": "user_id=18653813",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=18653813",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=18653813"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"1cbf48e15e6f4fdca594634149b36dae\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552834860\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"WdAuhnWR5q0umKTtezJ69bvDPow%3D\""
+            }
+        }
+    }
+}

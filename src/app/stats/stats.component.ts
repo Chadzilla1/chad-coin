@@ -2,6 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { TwitterService } from '../twitter.service';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { single } from './data';
+import * as abbyJson from '../../assets/abby.json';
+import * as alexJson from '../../assets/alex.json';
+import * as benJson from '../../assets/ben.json';
+import * as bradJson from '../../assets/brad.json';
+import * as janJson from '../../assets/jan.json';
+import * as jasonJson from '../../assets/jason.json';
+import * as jeffJson from '../../assets/jeff.json';
+
+
+
 
 export interface Chart {
   value: string;
@@ -42,7 +52,7 @@ export class StatsComponent implements OnInit {
   showYAxisLabel = true;
   yAxisLabel = 'Tweets';
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#ff80ff', '#400080']
+    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#ff80ff', '#400080', '#ff8040']
   };
 
   constructor(private api: TwitterService) {
@@ -53,7 +63,8 @@ export class StatsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getAll();
+    this.createDataJson();
+    //this.getAll();
   }
 
   getAll() {
@@ -77,6 +88,137 @@ export class StatsComponent implements OnInit {
         console.log(res);
         this.myTimeline = res;
       });
+  }
+
+  getUser(name: string) {
+    this.api.getUser(name).then(
+      res => {
+        console.log(res);
+        this.myTimeline = res;
+      });
+  }
+
+  createDataJson() {
+    this.totalTweets = [
+      {
+        "name": "jeff",
+        "value": jeffJson.default.data.statuses_count
+      },
+      {
+        "name": "alex",
+        "value": alexJson.default.data.statuses_count
+      },
+      {
+        "name": "brad",
+        "value": bradJson.default.data.statuses_count
+      },
+      {
+        "name": "ben",
+        "value": benJson.default.data.statuses_count
+      },
+      {
+        "name": "abby",
+        "value": abbyJson.default.data.statuses_count
+      },
+      {
+        "name": "jan",
+        "value": janJson.default.data.statuses_count
+      },
+      {
+        "name": "jason",
+        "value": jasonJson.default.data.statuses_count
+      }
+    ];
+    this.totalFollowers = [
+      {
+        "name": "jeff",
+        "value": jeffJson.default.data.followers_count
+      },
+      {
+        "name": "alex",
+        "value": alexJson.default.data.followers_count
+      },
+      {
+        "name": "brad",
+        "value": bradJson.default.data.followers_count
+      },
+      {
+        "name": "ben",
+        "value": benJson.default.data.followers_count
+      },
+      {
+        "name": "abby",
+        "value": abbyJson.default.data.followers_count
+      },
+      {
+        "name": "jan",
+        "value": janJson.default.data.followers_count
+      },
+      {
+        "name": "jason",
+        "value": jasonJson.default.data.statuses_count
+      }
+    ];
+    this.totalFavourites = [
+      {
+        "name": "jeff",
+        "value": jeffJson.default.data.favourites_count
+      },
+      {
+        "name": "alex",
+        "value": alexJson.default.data.favourites_count
+      },
+      {
+        "name": "brad",
+        "value": bradJson.default.data.favourites_count
+      },
+      {
+        "name": "ben",
+        "value": benJson.default.data.favourites_count
+      },
+      {
+        "name": "abby",
+        "value": abbyJson.default.data.favourites_count
+      },
+      {
+        "name": "jan",
+        "value": janJson.default.data.favourites_count
+      },
+      {
+        "name": "jason",
+        "value": jasonJson.default.data.statuses_count
+      }
+    ];
+    this.totalFriends = [
+      {
+        "name": "jeff",
+        "value": jeffJson.default.data.friends_count
+      },
+      {
+        "name": "alex",
+        "value": alexJson.default.data.friends_count
+      },
+      {
+        "name": "brad",
+        "value": bradJson.default.data.friends_count
+      },
+      {
+        "name": "ben",
+        "value": benJson.default.data.friends_count
+      },
+      {
+        "name": "abby",
+        "value": abbyJson.default.data.friends_count
+      },
+      {
+        "name": "jan",
+        "value": janJson.default.data.friends_count
+      },
+      {
+        "name": "jason",
+        "value": jasonJson.default.data.statuses_count
+      }
+    ];
   }
 
   createData(timelines: any[]) {

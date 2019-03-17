@@ -1,0 +1,191 @@
+{
+    "data": {
+        "id": 18892183,
+        "id_str": "18892183",
+        "name": "Moloch-André Fleury",
+        "screen_name": "alex_navarro",
+        "location": "Queens, NY",
+        "profile_location": null,
+        "description": "part of the new cruelty",
+        "url": "https://t.co/SSAOitHDE5",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/SSAOitHDE5",
+                        "expanded_url": "http://giantbomb.com",
+                        "display_url": "giantbomb.com",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 62929,
+        "friends_count": 955,
+        "listed_count": 1460,
+        "created_at": "Mon Jan 12 05:10:00 +0000 2009",
+        "favourites_count": 21662,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 57085,
+        "lang": "en",
+        "status": {
+            "created_at": "Sun Mar 17 03:12:40 +0000 2019",
+            "id": 1107117519742079000,
+            "id_str": "1107117519742078976",
+            "text": "RT @mostlyclaudia: so we beat on, boys against the current, borne ceaselessly back into the town",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mostlyclaudia",
+                        "name": "claudia morales",
+                        "id": 171653601,
+                        "id_str": "171653601",
+                        "indices": [
+                            3,
+                            17
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Wed Feb 03 21:23:43 +0000 2016",
+                "id": 694994701674532900,
+                "id_str": "694994701674532864",
+                "text": "so we beat on, boys against the current, borne ceaselessly back into the town",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": []
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 3641,
+                "favorite_count": 7338,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 3641,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "9AE4E8",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/908736498752659456/UY6bWCcX_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/908736498752659456/UY6bWCcX_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/18892183/1482513951",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1129",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Sun, 17 Mar 2019 15:00:38 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Sun, 17 Mar 2019 15:00:37 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_vgbLMeUsH6P7RPiLljBkrA==\"; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:00:37 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155283483792883646; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:00:37 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "c0edcbb2689bf6cfd2d7b9dd1c2deb7d",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "898",
+            "x-rate-limit-reset": "1552835557",
+            "x-response-time": "183",
+            "x-transaction": "00153efb00d8b8b6",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=18892183",
+                "query": "user_id=18892183",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=18892183",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=18892183"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"5df56b25a07a4270a5b120a527418ac1\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552834837\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"8GtTHjhFvRbxwKp2nBWDh3iG7m4%3D\""
+            }
+        }
+    }
+}
