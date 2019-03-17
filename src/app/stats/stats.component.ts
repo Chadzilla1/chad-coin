@@ -42,7 +42,7 @@ export class StatsComponent implements OnInit {
   showYAxisLabel = true;
   yAxisLabel = 'Tweets';
   colorScheme = {
-    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#ff80ff', '#400080']
   };
 
   constructor(private api: TwitterService) {
@@ -61,6 +61,10 @@ export class StatsComponent implements OnInit {
       this.api.getUserTimeline('jeff'),
       this.api.getUserTimeline('alex'),
       this.api.getUserTimeline('brad'),
+      this.api.getUserTimeline('ben'),
+      this.api.getUserTimeline('abby'),
+      this.api.getUserTimeline('jan'),
+      this.api.getUserTimeline('jason'),
     ]).then(values => {
       this.createData(values);
     }
@@ -88,6 +92,18 @@ export class StatsComponent implements OnInit {
       {
         "name": "brad",
         "value": timelines[2].data[0].user.statuses_count
+      },
+      {
+        "name": "ben",
+        "value": timelines[3].data[0].user.statuses_count
+      },
+      {
+        "name": "abby",
+        "value": timelines[4].data[0].user.statuses_count
+      },
+      {
+        "name": "jan",
+        "value": timelines[5].data[0].user.statuses_count
       }
     ];
     this.totalFollowers = [
@@ -102,6 +118,18 @@ export class StatsComponent implements OnInit {
       {
         "name": "brad",
         "value": timelines[2].data[0].user.followers_count
+      },
+      {
+        "name": "ben",
+        "value": timelines[3].data[0].user.followers_count
+      },
+      {
+        "name": "abby",
+        "value": timelines[4].data[0].user.followers_count
+      },
+      {
+        "name": "jan",
+        "value": timelines[5].data[0].user.followers_count
       }
     ];
     this.totalFavourites = [
@@ -116,6 +144,18 @@ export class StatsComponent implements OnInit {
       {
         "name": "brad",
         "value": timelines[2].data[0].user.favourites_count
+      },
+      {
+        "name": "ben",
+        "value": timelines[3].data[0].user.favourites_count
+      },
+      {
+        "name": "abby",
+        "value": timelines[4].data[0].user.favourites_count
+      },
+      {
+        "name": "jan",
+        "value": timelines[5].data[0].user.favourites_count
       }
     ];
     this.totalFriends = [
@@ -130,6 +170,18 @@ export class StatsComponent implements OnInit {
       {
         "name": "brad",
         "value": timelines[2].data[0].user.friends_count
+      },
+      {
+        "name": "ben",
+        "value": timelines[3].data[0].user.friends_count
+      },
+      {
+        "name": "abby",
+        "value": timelines[4].data[0].user.friends_count
+      },
+      {
+        "name": "jan",
+        "value": timelines[5].data[0].user.friends_count
       }
     ];
   }
