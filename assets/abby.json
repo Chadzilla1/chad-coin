@@ -1,0 +1,162 @@
+{
+    "data": {
+        "id": 40584427,
+        "id_str": "40584427",
+        "name": "abby russell",
+        "screen_name": "ybbaaabby",
+        "location": "Brooklyn, NY",
+        "profile_location": null,
+        "description": "I'm down to clown 'til I'm dead in the ground. | Games @GiantBomb | Comedy @MagnetTheater | #Gas",
+        "url": "https://t.co/XXwAhPI637",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/XXwAhPI637",
+                        "expanded_url": "https://instagram.com/ybbaaabby",
+                        "display_url": "instagram.com/ybbaaabby",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 39286,
+        "friends_count": 1904,
+        "listed_count": 465,
+        "created_at": "Sun May 17 01:43:05 +0000 2009",
+        "favourites_count": 81823,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 7749,
+        "lang": "en",
+        "status": {
+            "created_at": "Sun Mar 17 06:06:54 +0000 2019",
+            "id": 1107161366484398100,
+            "id_str": "1107161366484398081",
+            "text": "@arthickman hell yeah i'm insufferable 😎",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "arthickman",
+                        "name": "Arthur Hickman",
+                        "id": 61671405,
+                        "id_str": "61671405",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": 1106941706841321500,
+            "in_reply_to_status_id_str": "1106941706841321473",
+            "in_reply_to_user_id": 61671405,
+            "in_reply_to_user_id_str": "61671405",
+            "in_reply_to_screen_name": "arthickman",
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 26,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/784586525820514305/T-t9tHQm_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/784586525820514305/T-t9tHQm_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/40584427/1493357271",
+        "profile_link_color": "990005",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1063",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Sun, 17 Mar 2019 15:02:03 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Sun, 17 Mar 2019 15:02:03 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_0oYS0iQXhhkyxm6nUkpJRg==\"; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:02:03 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155283492340798169; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:02:03 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "e7f542216fa314c18a2be9bca731b251",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "895",
+            "x-rate-limit-reset": "1552835557",
+            "x-response-time": "151",
+            "x-transaction": "006abdf50041cdf4",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=40584427",
+                "query": "user_id=40584427",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=40584427",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=40584427"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"007d01bdc0df4095b9c1af8134f40c7b\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552834923\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"2H4fXKGGGaAzxNg%2FsQI7kCs6sxY%3D\""
+            }
+        }
+    }
+}

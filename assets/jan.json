@@ -1,0 +1,261 @@
+{
+    "data": {
+        "id": 15991694,
+        "id_str": "15991694",
+        "name": "Jan Ochoa",
+        "screen_name": "_janjerome",
+        "location": "San Francisco, CA",
+        "profile_location": null,
+        "description": "we just lifing out here. Associate Video Producer at Giant Bomb. ||| header done by @probablytuna",
+        "url": "https://t.co/5b0NHpPZE0",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/5b0NHpPZE0",
+                        "expanded_url": "http://Giantbomb.com",
+                        "display_url": "Giantbomb.com",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 16086,
+        "friends_count": 429,
+        "listed_count": 209,
+        "created_at": "Tue Aug 26 03:14:34 +0000 2008",
+        "favourites_count": 1905,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 9048,
+        "lang": "en",
+        "status": {
+            "created_at": "Thu Mar 14 21:42:52 +0000 2019",
+            "id": 1106309746758303700,
+            "id_str": "1106309746758303744",
+            "text": "Good night sweet prince https://t.co/WmlShqDl57",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1106309706463629300,
+                        "id_str": "1106309706463629312",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1106309706463629312/pu/img/gPp-Gn8Vh6Yr8VPJ.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1106309706463629312/pu/img/gPp-Gn8Vh6Yr8VPJ.jpg",
+                        "url": "https://t.co/WmlShqDl57",
+                        "display_url": "pic.twitter.com/WmlShqDl57",
+                        "expanded_url": "https://twitter.com/_janjerome/status/1106309746758303744/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 383,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 720,
+                                "h": 1280,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 675,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1106309706463629300,
+                        "id_str": "1106309706463629312",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1106309706463629312/pu/img/gPp-Gn8Vh6Yr8VPJ.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1106309706463629312/pu/img/gPp-Gn8Vh6Yr8VPJ.jpg",
+                        "url": "https://t.co/WmlShqDl57",
+                        "display_url": "pic.twitter.com/WmlShqDl57",
+                        "expanded_url": "https://twitter.com/_janjerome/status/1106309746758303744/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 383,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 720,
+                                "h": 1280,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 675,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 5358,
+                            "variants": [
+                                {
+                                    "bitrate": 632000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1106309706463629312/pu/vid/320x568/ngyeyna3mR-6__J1.mp4?tag=8"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/1106309706463629312/pu/pl/b8s_oL866uEXR6O_.m3u8?tag=8"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1106309706463629312/pu/vid/360x640/uqeYKw0EToIOl5d5.mp4?tag=8"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1106309706463629312/pu/vid/720x1280/mKZCfFTtIJ5y1q6j.mp4?tag=8"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 7,
+            "favorite_count": 193,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1088539960913752064/3zSeGJhb_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1088539960913752064/3zSeGJhb_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15991694/1540437926",
+        "profile_link_color": "DD2E44",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1484",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Sun, 17 Mar 2019 15:02:46 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Sun, 17 Mar 2019 15:02:46 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_R5Hak90goAsKGq/Mrqt4Eg==\"; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:02:46 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155283496603196033; Max-Age=63072000; Expires=Tue, 16 Mar 2021 15:02:46 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "dd9c9daa1405acf28d2d53878d0c862e",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "893",
+            "x-rate-limit-reset": "1552835557",
+            "x-response-time": "182",
+            "x-transaction": "000eca8c006a4b0d",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=15991694",
+                "query": "user_id=15991694",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=15991694",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=15991694"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"174826de67234b5db4b47b9d03e3a9ee\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552834965\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"5j9aL%2F70z2YgYtRISM8esNOlehI%3D\""
+            }
+        }
+    }
+}
