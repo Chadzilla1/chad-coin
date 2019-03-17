@@ -327,7 +327,7 @@ module.exports = "<!-- <div *ngIf=\"undefined === myTimeline\">Loading...</div>\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-card {\n  max-width: 400px; }\n\n.example-header-image {\n  background-size: cover; }\n\n.myClass {\n  padding: 200px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3RhdHMvZjpcXERldlxcR2l0XFxnaWFudC1ib21iLWFuZ3VsYXItZnJlc2gvc3JjXFxhcHBcXHN0YXRzXFxzdGF0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGdCQUFnQixFQUFBOztBQUdsQjtFQUNFLHNCQUFzQixFQUFBOztBQUd4QjtFQUNFLGNBQWEsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3N0YXRzL3N0YXRzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV4YW1wbGUtY2FyZCB7XHJcbiAgICBtYXgtd2lkdGg6IDQwMHB4O1xyXG4gIH1cclxuICBcclxuICAuZXhhbXBsZS1oZWFkZXItaW1hZ2Uge1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICB9XHJcblxyXG4gIC5teUNsYXNzIHtcclxuICAgIHBhZGRpbmc6MjAwcHg7XHJcbiAgfVxyXG4gICJdfQ== */"
+module.exports = ".example-card {\n  max-width: 400px; }\n\n.example-header-image {\n  background-size: cover; }\n\n.myClass {\n  padding: 200px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3RhdHMvRjpcXERldlxcR2l0XFxnaWFudC1ib21iLWFuZ3VsYXItZnJlc2gvc3JjXFxhcHBcXHN0YXRzXFxzdGF0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGdCQUFnQixFQUFBOztBQUdsQjtFQUNFLHNCQUFzQixFQUFBOztBQUd4QjtFQUNFLGNBQWEsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3N0YXRzL3N0YXRzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV4YW1wbGUtY2FyZCB7XHJcbiAgICBtYXgtd2lkdGg6IDQwMHB4O1xyXG4gIH1cclxuICBcclxuICAuZXhhbXBsZS1oZWFkZXItaW1hZ2Uge1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICB9XHJcblxyXG4gIC5teUNsYXNzIHtcclxuICAgIHBhZGRpbmc6MjAwcHg7XHJcbiAgfVxyXG4gICJdfQ== */"
 
 /***/ }),
 
@@ -552,7 +552,7 @@ module.exports = "<div *ngIf=\"undefined === myTimeline\">Loading...</div>\n<div
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ngx-twitter-timeline {\n  height: 100%; }\n\nimg {\n  padding-left: 55px;\n  padding-bottom: 10px; }\n\nmat-card-content {\n  padding-left: 55px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdHdpdHRlci10aW1lbGluZS9mOlxcRGV2XFxHaXRcXGdpYW50LWJvbWItYW5ndWxhci1mcmVzaC9zcmNcXGFwcFxcdHdpdHRlci10aW1lbGluZVxcdHdpdHRlci10aW1lbGluZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQ0osRUFBQTs7QUFFQTtFQUNJLGtCQUFrQjtFQUNsQixvQkFDSixFQUFBOztBQUVBO0VBQ0ksa0JBQWtCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC90d2l0dGVyLXRpbWVsaW5lL3R3aXR0ZXItdGltZWxpbmUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJuZ3gtdHdpdHRlci10aW1lbGluZSB7XHJcbiAgICBoZWlnaHQ6MTAwJVxyXG59XHJcblxyXG5pbWd7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDU1cHg7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweFxyXG59XHJcblxyXG5tYXQtY2FyZC1jb250ZW50e1xyXG4gICAgcGFkZGluZy1sZWZ0OiA1NXB4O1xyXG59Il19 */"
+module.exports = "ngx-twitter-timeline {\n  height: 100%; }\n\nimg {\n  padding-left: 55px;\n  padding-bottom: 10px; }\n\nmat-card-content {\n  padding-left: 55px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdHdpdHRlci10aW1lbGluZS9GOlxcRGV2XFxHaXRcXGdpYW50LWJvbWItYW5ndWxhci1mcmVzaC9zcmNcXGFwcFxcdHdpdHRlci10aW1lbGluZVxcdHdpdHRlci10aW1lbGluZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQ0osRUFBQTs7QUFFQTtFQUNJLGtCQUFrQjtFQUNsQixvQkFDSixFQUFBOztBQUVBO0VBQ0ksa0JBQWtCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC90d2l0dGVyLXRpbWVsaW5lL3R3aXR0ZXItdGltZWxpbmUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJuZ3gtdHdpdHRlci10aW1lbGluZSB7XHJcbiAgICBoZWlnaHQ6MTAwJVxyXG59XHJcblxyXG5pbWd7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDU1cHg7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweFxyXG59XHJcblxyXG5tYXQtY2FyZC1jb250ZW50e1xyXG4gICAgcGFkZGluZy1sZWZ0OiA1NXB4O1xyXG59Il19 */"
 
 /***/ }),
 
@@ -749,7 +749,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! f:\Dev\Git\giant-bomb-angular-fresh\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! F:\Dev\Git\giant-bomb-angular-fresh\src\main.ts */"./src/main.ts");
 
 
 /***/ })
