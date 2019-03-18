@@ -17,6 +17,10 @@ const routes: Routes = [
     component: StatsComponent
   },
   {
+    path: 'stats/:name',
+    component: StatsComponent
+  },
+  {
     path: '',
     redirectTo: 'twitter_timeline/jeff',
     pathMatch: 'full'

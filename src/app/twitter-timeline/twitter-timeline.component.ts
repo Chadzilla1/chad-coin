@@ -20,6 +20,7 @@ export class TwitterTimelineComponent implements OnInit {
   opts = { tweetLimit: 5 }
   selected = '5';
 
+
   options: Opts[] = [
     { value: 5, viewValue: '5' },
     { value: 10, viewValue: '10' },
@@ -29,6 +30,10 @@ export class TwitterTimelineComponent implements OnInit {
   ];
 
   constructor(private api: TwitterService, private route: ActivatedRoute, private router: Router) { }
+
+  updateOpts(num: number) {
+    this.opts = { tweetLimit: num }
+  }
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
