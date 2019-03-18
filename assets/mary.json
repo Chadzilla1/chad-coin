@@ -1,0 +1,183 @@
+{
+    "data": {
+        "id": 1967409835,
+        "id_str": "1967409835",
+        "name": "Mary Kish",
+        "screen_name": "MerryKish",
+        "location": "Portland, OR",
+        "profile_location": {
+            "id": "ac88a4f17a51c7fc",
+            "url": "https://api.twitter.com/1.1/geo/id/ac88a4f17a51c7fc.json",
+            "place_type": "unknown",
+            "name": "Portland, OR",
+            "full_name": "Portland, OR",
+            "country_code": "",
+            "country": "",
+            "contained_within": [],
+            "bounding_box": null,
+            "attributes": {}
+        },
+        "description": "I run a tight ship @Twitch. Surviving all the Resident Evils. What's life if you never take off your pants and slide on the ice once in a while.",
+        "url": "https://t.co/TBf3AZrEI8",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/TBf3AZrEI8",
+                        "expanded_url": "http://www.twitch.tv/merrykish",
+                        "display_url": "twitch.tv/merrykish",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 39524,
+        "friends_count": 1738,
+        "listed_count": 471,
+        "created_at": "Thu Oct 17 18:38:52 +0000 2013",
+        "favourites_count": 46292,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 13175,
+        "lang": "en",
+        "status": {
+            "created_at": "Mon Mar 18 20:30:31 +0000 2019",
+            "id": 1107741089836916700,
+            "id_str": "1107741089836916736",
+            "text": "@sailorbee Mine also faded pretty quickly, but it was different because my color is darker than urs. But the follow… https://t.co/aUafXKOaeM",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "sailorbee",
+                        "name": "Victoria",
+                        "id": 36206861,
+                        "id_str": "36206861",
+                        "indices": [
+                            0,
+                            10
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/aUafXKOaeM",
+                        "expanded_url": "https://twitter.com/i/web/status/1107741089836916736",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": 1107738578572894200,
+            "in_reply_to_status_id_str": "1107738578572894208",
+            "in_reply_to_user_id": 36206861,
+            "in_reply_to_user_id_str": "36206861",
+            "in_reply_to_screen_name": "sailorbee",
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1045596618827812864/76c4MIt2_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1045596618827812864/76c4MIt2_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1967409835/1536948430",
+        "profile_link_color": "91D2FA",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1294",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Mon, 18 Mar 2019 20:47:17 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Mon, 18 Mar 2019 20:47:17 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_qCR7Q3FzfL6xDAVUhjiCCg==\"; Max-Age=63072000; Expires=Wed, 17 Mar 2021 20:47:17 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155294203787881274; Max-Age=63072000; Expires=Wed, 17 Mar 2021 20:47:17 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "fa343ecb4769a3245815a0d537292cd1",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "899",
+            "x-rate-limit-reset": "1552942937",
+            "x-response-time": "187",
+            "x-transaction": "004a8347002920a8",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=1967409835",
+                "query": "user_id=1967409835",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=1967409835",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=1967409835"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"6c7c88c4b4fe45fdb6ba5745df9b1ebc\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552942037\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"y89X8dxgDKqM1P%2BZwFmSXmtcXmU%3D\""
+            }
+        }
+    }
+}

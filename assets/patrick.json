@@ -1,0 +1,217 @@
+{
+    "data": {
+        "id": 13461662,
+        "id_str": "13461662",
+        "name": "Patrick Klepek",
+        "screen_name": "patrickklepek",
+        "location": "Illinois, USA",
+        "profile_location": null,
+        "description": "senior reporter @waypoint. co-host @tildeathpodcast. tips: patrick.klepek@vice.com. DMs open, ask for Signal. he/him",
+        "url": "https://t.co/9RpdOMWbSC",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/9RpdOMWbSC",
+                        "expanded_url": "http://www.youtube.com/patrickklepek",
+                        "display_url": "youtube.com/patrickklepek",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 166143,
+        "friends_count": 756,
+        "listed_count": 2448,
+        "created_at": "Thu Feb 14 05:58:37 +0000 2008",
+        "favourites_count": 7899,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 15316,
+        "lang": "en",
+        "status": {
+            "created_at": "Mon Mar 18 15:39:39 +0000 2019",
+            "id": 1107667892223516700,
+            "id_str": "1107667892223516677",
+            "text": "RT @kateconger: two spidermans pointing at each other dot gif https://t.co/njELikhXfY",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "kateconger",
+                        "name": "kate conger",
+                        "id": 316154811,
+                        "id_str": "316154811",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/njELikhXfY",
+                        "expanded_url": "https://twitter.com/AP/status/1107650386196873222",
+                        "display_url": "twitter.com/AP/status/1107…",
+                        "indices": [
+                            62,
+                            85
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Mon Mar 18 15:22:43 +0000 2019",
+                "id": 1107663631313850400,
+                "id_str": "1107663631313850368",
+                "text": "two spidermans pointing at each other dot gif https://t.co/njELikhXfY",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/njELikhXfY",
+                            "expanded_url": "https://twitter.com/AP/status/1107650386196873222",
+                            "display_url": "twitter.com/AP/status/1107…",
+                            "indices": [
+                                46,
+                                69
+                            ]
+                        }
+                    ]
+                },
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": true,
+                "quoted_status_id": 1107650386196873200,
+                "quoted_status_id_str": "1107650386196873222",
+                "retweet_count": 226,
+                "favorite_count": 809,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": true,
+            "quoted_status_id": 1107650386196873200,
+            "quoted_status_id_str": "1107650386196873222",
+            "retweet_count": 226,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1081234922004729858/-pV-UtlF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1081234922004729858/-pV-UtlF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/13461662/1507843112",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1229",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Mon, 18 Mar 2019 17:11:39 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Mon, 18 Mar 2019 17:11:39 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_46SvNZEgjO4HtsCaLvy5WQ==\"; Max-Age=63072000; Expires=Wed, 17 Mar 2021 17:11:39 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155292909929517691; Max-Age=63072000; Expires=Wed, 17 Mar 2021 17:11:39 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "5d028d88f6a32edd9e72a4d6cd53f542",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "895",
+            "x-rate-limit-reset": "1552929798",
+            "x-response-time": "159",
+            "x-transaction": "0001f171005bdc95",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=13461662",
+                "query": "user_id=13461662",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=13461662",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=13461662"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"f8ab2e672ca94809b4c09cd8d4c8e8f4\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552929098\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"x1SonSDODZkp5w2g%2B3to6jyd2Zg%3D\""
+            }
+        }
+    }
+}
