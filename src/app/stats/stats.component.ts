@@ -33,7 +33,8 @@ export class StatsComponent implements OnInit {
   selected = 'bar-vertical';
 
   charts: Chart[] = [
-    { value: 'bar-vertical', viewValue: 'Bar Chart' },
+    { value: 'bar-vertical', viewValue: 'Vertical Bar Chart' },
+    { value: 'bar-horizontal', viewValue: 'Horizontal Bar Chart' },
     { value: 'pie', viewValue: 'Pie Chart' },
     { value: 'pie-advanced', viewValue: 'Advanced Pie Chart' }
   ];

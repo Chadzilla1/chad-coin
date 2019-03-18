@@ -32,6 +32,11 @@
         <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
           [results]="totalTweets" [gradient]="gradient" (select)="onSelect($event)">
         </ngx-charts-advanced-pie-chart>
+        <ngx-charts-bar-horizontal *ngIf="selected === 'bar-horizontal'" [view]="view" [scheme]="colorScheme"
+          [results]="totalTweets" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="yAxisLabel"
+          [yAxisLabel]="xAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-horizontal>
       </div>
     </mat-tab>
     <mat-tab label="Favourites">
@@ -47,6 +52,11 @@
         <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
           [results]="totalFavourites" [gradient]="gradient" (select)="onSelect($event)">
         </ngx-charts-advanced-pie-chart>
+        <ngx-charts-bar-horizontal *ngIf="selected === 'bar-horizontal'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFavourites" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis"
+          [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="yAxisLabel" [yAxisLabel]="xAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-horizontal>
       </div>
     </mat-tab>
     <mat-tab label="Followers">
@@ -62,6 +72,11 @@
         <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
           [results]="totalFollowers" [gradient]="gradient" (select)="onSelect($event)">
         </ngx-charts-advanced-pie-chart>
+        <ngx-charts-bar-horizontal *ngIf="selected === 'bar-horizontal'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFollowers" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="yAxisLabel"
+          [yAxisLabel]="xAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-horizontal>
       </div>
     </mat-tab>
     <mat-tab label="Friends">
@@ -77,6 +92,11 @@
         <ngx-charts-advanced-pie-chart *ngIf="selected === 'pie-advanced'" [view]="view" [scheme]="colorScheme"
           [results]="totalFriends" [gradient]="gradient" (select)="onSelect($event)">
         </ngx-charts-advanced-pie-chart>
+        <ngx-charts-bar-horizontal *ngIf="selected === 'bar-horizontal'" [view]="view" [scheme]="colorScheme"
+          [results]="totalFriends" [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="yAxisLabel"
+          [yAxisLabel]="xAxisLabel" (select)="onSelect($event)">
+        </ngx-charts-bar-horizontal>
       </div>
     </mat-tab>
   </mat-tab-group>

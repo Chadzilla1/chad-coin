@@ -14,7 +14,8 @@ const routes: Routes = [
   },
   {
     path: 'stats',
-    component: StatsComponent
+    redirectTo: 'stats/duders',
+    pathMatch: 'full'
   },
   {
     path: 'stats/:name',
