@@ -1,0 +1,162 @@
+{
+    "data": {
+        "id": 453963,
+        "id_str": "453963",
+        "name": "Matthew Rorie",
+        "screen_name": "frailgesture",
+        "location": "San Francisco",
+        "profile_location": null,
+        "description": "Get in touch at support@giantbomb.com or support@comicvine.com for anything you like.",
+        "url": "http://t.co/z1VsrFvMWu",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "http://t.co/z1VsrFvMWu",
+                        "expanded_url": "http://www.giantbomb.com",
+                        "display_url": "giantbomb.com",
+                        "indices": [
+                            0,
+                            22
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 30971,
+        "friends_count": 98,
+        "listed_count": 656,
+        "created_at": "Tue Jan 02 14:31:40 +0000 2007",
+        "favourites_count": 146,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 26360,
+        "lang": "en",
+        "status": {
+            "created_at": "Sat Mar 16 22:16:13 +0000 2019",
+            "id": 1107042915149217800,
+            "id_str": "1107042915149217792",
+            "text": "@BerthaFaye I literally had four or five people asking me that in chat, so I apologize if it got repetitive.",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "BerthaFaye",
+                        "name": "Bertha Faye Yay",
+                        "id": 1029915335766491100,
+                        "id_str": "1029915335766491137",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "in_reply_to_status_id": 1106887119648153600,
+            "in_reply_to_status_id_str": "1106887119648153601",
+            "in_reply_to_user_id": 1029915335766491100,
+            "in_reply_to_user_id_str": "1029915335766491137",
+            "in_reply_to_screen_name": "BerthaFaye",
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "9AE4E8",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/841971338/philippe_blog_normal.gif",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/841971338/philippe_blog_normal.gif",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/453963/1393665449",
+        "profile_link_color": "0000FF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "E0FF92",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "1092",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Mon, 18 Mar 2019 20:21:11 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Mon, 18 Mar 2019 20:21:11 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_f",
+            "set-cookie": [
+                "personalization_id=\"v1_aRHGz5GRWJOGIsWVp1R0tA==\"; Max-Age=63072000; Expires=Wed, 17 Mar 2021 20:21:11 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A155294047137447404; Max-Age=63072000; Expires=Wed, 17 Mar 2021 20:21:11 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "0b0c559393192763e5e4b18e38f00ae1",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "899",
+            "x-rate-limit-reset": "1552941371",
+            "x-response-time": "151",
+            "x-transaction": "00b2ec2b00fb0c00",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "1; mode=block; report=https://twitter.com/i/xss_report"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?user_id=453963",
+                "query": "user_id=453963",
+                "pathname": "/1.1/users/show.json",
+                "path": "/1.1/users/show.json?user_id=453963",
+                "href": "https://api.twitter.com/1.1/users/show.json?user_id=453963"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"8DFGSy88YIYkb94AZ7owKpeQA\",oauth_nonce=\"cf3697f1541344cfa4f99a271ddd8d30\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1552940468\",oauth_token=\"251807042-0vR3QTAnUeNks3818tfGbJLB16QJmUMqya6mOUX2\",oauth_version=\"1.0\",oauth_signature=\"0F4rM0yr%2FyNhHQA0JwqQEeZr4kk%3D\""
+            }
+        }
+    }
+}

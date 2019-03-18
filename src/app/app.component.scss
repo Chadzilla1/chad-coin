@@ -1,9 +1,10 @@
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+  mat-sidenav {
+    width: 35%;
   }
-
-mat-sidenav {
-    width: 30%;
+}
+@media only screen and (min-width: 601px) {
+  mat-sidenav {
+    width: 15%;
+  }
 }

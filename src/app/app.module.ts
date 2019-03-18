@@ -2,8 +2,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TwitterService } from 'ng2-twitter';
@@ -14,7 +12,6 @@ import {MatButtonModule} from '@angular/material';
 import { MatCardModule } from "@angular/material";
 import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { NavigationComponent } from './navigation/navigation.component';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
@@ -29,7 +26,6 @@ import {MatSelectModule} from '@angular/material/select';
   declarations: [
     AppComponent,
     TwitterTimelineComponent,
-    NavigationComponent,
     StatsComponent
   ],
   imports: [
