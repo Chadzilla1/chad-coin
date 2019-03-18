@@ -11,6 +11,13 @@
   </mat-card-content>
 </mat-card>
  -->
+ <mat-form-field>
+  <mat-select placeholder="Tweet Limit" [(value)]="selected">
+    <mat-option *ngFor="let option of options" [value]="option.value">
+      {{option.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
 <div *ngIf="undefined === name">Loading...</div>
 <div *ngIf="'jeff' === name">
   <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/jeffgerstmann'}" [opts]="{tweetLimit: 5}">
@@ -34,5 +41,41 @@
 </div>
 <div *ngIf="'jan' === name">
   <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/_janjerome'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'vinny' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/VinnyCaravella'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'dan' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/DanRyckert'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'jeff-bakalar' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/jeffbakalar'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'rorie' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/frailgesture'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'austin' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/austin_walker'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'danny' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/dannyodwyer'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'drew' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/drewscanlon'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'mary' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/MerryKish'}" [opts]="{tweetLimit: 5}">
+  </ngx-twitter-timeline>
+</div>
+<div *ngIf="'patrick' === name">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/patrickklepek'}" [opts]="{tweetLimit: 5}">
   </ngx-twitter-timeline>
 </div>

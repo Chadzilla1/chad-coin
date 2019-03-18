@@ -33,7 +33,7 @@ export class StatsComponent implements OnInit {
   totalFriends: any;
   totalRetweets: any;
   json: any;
-  view: any[] = [350, 370];
+  view: any[];
   myTimelines: any[];
   myTimeline: any;
   selected = 'bar-vertical';
@@ -56,8 +56,16 @@ export class StatsComponent implements OnInit {
   colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA', '#ff80ff', '#400080', '#ff8040']
   };
+  width;
+  height;
 
   constructor(private api: TwitterService, private http: HttpClient) {
+    this.width = window.innerWidth;
+    console.log(this.width);
+    this.height = window.innerHeight;
+    console.log(this.height);
+    this.view = [this.width * 0.7, this.height * 0.65];
+    console.log(this.view);
   }
 
   onSelect(event) {
