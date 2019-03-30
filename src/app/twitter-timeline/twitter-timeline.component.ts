@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TwitterService } from '../twitter.service';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
+
 export interface Opts {
   value: number;
   viewValue: string;
@@ -17,8 +18,8 @@ export class TwitterTimelineComponent implements OnInit {
   myTimeline: any;
   name: string;
   url: string;
-  opts = { tweetLimit: 5 }
-  selected = '5';
+  selected = '10';
+  opts = { tweetLimit: this.selected }
 
 
   options: Opts[] = [
@@ -31,9 +32,9 @@ export class TwitterTimelineComponent implements OnInit {
 
   constructor(private api: TwitterService, private route: ActivatedRoute, private router: Router) { }
 
-  updateOpts(num: number) {
+  /* updateOpts(num: number) {
     this.opts = { tweetLimit: num }
-  }
+  } */
 
   ngOnInit() {
     this.route.params.subscribe((params) => {

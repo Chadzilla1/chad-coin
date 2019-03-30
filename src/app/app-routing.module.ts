@@ -1,3 +1,4 @@
+import { SoundBoardComponent } from './sound-board/sound-board.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TwitterTimelineComponent } from './twitter-timeline/twitter-timeline.component';
@@ -20,6 +21,14 @@ const routes: Routes = [
   {
     path: 'stats/:name',
     component: StatsComponent
+  },
+  {
+    path: 'sound-board',
+    component: SoundBoardComponent
+  },
+  {
+    path: 'sound-board/:name',
+    component: SoundBoardComponent
   },
   {
     path: '',

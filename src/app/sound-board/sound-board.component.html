@@ -1,0 +1,104 @@
+<div *ngIf="isMobile === false" class="myContainer">
+  <div *ngIf="'dan' === name">
+    <mat-list>
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/pirates-stole-shit')">Pirates just stole
+          shit?</button>
+        <button mat-raised-button (click)="playAudio('dan/bears')">Bears?</button>
+        <button mat-raised-button (click)="playAudio('dan/cave-man-on-a-horse')">Cave man on a horse?</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/cave-men')">Cave men?</button>
+        <button mat-raised-button (click)="playAudio('dan/cows-and-cattle')">Cows and cattle?</button>
+        <button mat-raised-button (click)="playAudio('dan/cows-existed')">Cows existed back then?</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/payday')">Payday</button>
+        <button mat-raised-button (click)="playAudio('dan/robbing-people')">Robbing people</button>
+        <button mat-raised-button (click)="playAudio('dan/superman-cum')">Superman ...</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/wack-off-clinic')">Wack off clinic</button>
+        <button mat-raised-button (click)="playAudio('dan/wack-off-for-free')">Wack off for free</button>
+        <button mat-raised-button (click)="playAudio('dan/wack-off-into-a-cup')">Wack off into a cup</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+  <div *ngIf="'jeff' === name">
+    <mat-list>
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/helmet-kruger-in-the-house')">Helmut Kruger in
+          the
+          house!</button>
+        <button mat-raised-button (click)="playAudio('jeff/did-you-see')">Did you see?</button>
+        <button mat-raised-button (click)="playAudio('jeff/empty-ass')">Empty ass</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/im-helmet-kruger')">I'm Helmut Kruger</button>
+        <button mat-raised-button (click)="playAudio('jeff/look-at-that-corn')">Look at that corn!</button>
+        <button mat-raised-button (click)="playAudio('jeff/man')">Maan!</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/sheikh-zanzibar')">Sheikh Zanzibar</button>
+        <button mat-raised-button (click)="playAudio('jeff/what-up-bitch')">What up bitch?</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
+
+<div *ngIf="isMobile === true" class="myContainer">
+  <div *ngIf="'dan' === name">
+    <mat-list>
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/pirates-stole-shit')">Pirates just stole
+          shit?</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/bears')">Bears?</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/cave-man-on-a-horse')">Cave man on a
+          horse?</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/cave-men')">Cave men?</button></mat-list-item>
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/cows-and-cattle')">Cows and
+        cattle?</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/cows-existed')">Cows existed back then?</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/payday')">Payday</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/robbing-people')">Robbing people</button>
+      </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/superman-cum')">Superman ...</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('dan/wack-off-clinic')">Wack off clinic</button>
+      </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/wack-off-for-free')">Wack off for free</button>
+      </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/wack-off-into-a-cup')">Wack off into a
+          cup</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+  <div *ngIf="'jeff' === name">
+    <mat-list>
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/helmet-kruger-in-the-house')">Helmut Kruger in
+          the
+          house!</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('jeff/did-you-see')">Did you see?</button>
+      </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('jeff/empty-ass')">Empty ass</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/im-helmet-kruger')">I'm Helmut Kruger</button>
+      </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('jeff/look-at-that-corn')">Look at that
+          corn!</button></mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('jeff/man')">Maan!</button>
+      </mat-list-item>
+
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/sheikh-zanzibar')">Sheikh Zanzibar</button>
+      </mat-list-item>
+      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/what-up-bitch')">What up
+        bitch?</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>

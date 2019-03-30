@@ -1,4 +1,5 @@
-<mat-sidenav-container class="example-container">
+<div class="example-container">
+<mat-sidenav-container >
   <mat-sidenav #sidenav mode="side" opened role="navigation" [(opened)]="opened">
     <mat-nav-list>
       <mat-expansion-panel>
@@ -30,8 +31,19 @@
         <a mat-list-item routerLink='/twitter_timeline/mary'>Mary</a>
         <a mat-list-item routerLink='/twitter_timeline/patrick'>Patrick</a>
       </mat-expansion-panel>
+      
       <a mat-list-item routerLink="/stats/duders">Duders Stats</a>
       <a mat-list-item routerLink="/stats/friends">Friends Stats</a>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Sound Boards
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+      <a mat-list-item routerLink="/sound-board/dan">Dan</a>
+      <a mat-list-item routerLink="/sound-board/jeff">Jeff</a>
+    </mat-expansion-panel>
 
     </mat-nav-list>
   </mat-sidenav>
@@ -42,3 +54,4 @@
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
+</div>

@@ -20,7 +20,7 @@
 </mat-form-field>
 <div *ngIf="undefined === name">Loading...</div>
 <div *ngIf="'jeff' === name">
-  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/jeffgerstmann'}" [opts]="{tweetLimit: 5}">
+  <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/jeffgerstmann'}" [opts]="'{tweetLimit: 5}'">
   </ngx-twitter-timeline>
 </div>
 <div *ngIf="'alex' === name">
