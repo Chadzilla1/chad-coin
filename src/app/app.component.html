@@ -1,58 +1,59 @@
 <div class="example-container">
-<mat-sidenav-container >
-  <mat-sidenav #sidenav mode="side" opened role="navigation" [(opened)]="opened">
-    <mat-nav-list>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Duders Twitters
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <a mat-list-item routerLink="/twitter_timeline/jeff">Jeff</a>
-        <a mat-list-item routerLink='/twitter_timeline/alex'>Alex</a>
-        <a mat-list-item routerLink='/twitter_timeline/ben'>Ben</a>
-        <a mat-list-item routerLink='/twitter_timeline/abby'>Abby</a>
-        <a mat-list-item routerLink='/twitter_timeline/jason'>Jason</a>
-        <a mat-list-item routerLink='/twitter_timeline/jan'>Jan</a>
-        <a mat-list-item routerLink='/twitter_timeline/vinny'>Vinny</a>
-        <a mat-list-item routerLink='/twitter_timeline/dan'>Dan</a>
-        <a mat-list-item routerLink='/twitter_timeline/jeff-bakalar'>Jeff Bakalar</a>
-        <a mat-list-item routerLink='/twitter_timeline/rorie'>Rorie</a>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Friends Twitters
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <a mat-list-item routerLink="/twitter_timeline/austin">Austin</a>
-        <a mat-list-item routerLink='/twitter_timeline/danny'>Danny</a>
-        <a mat-list-item routerLink='/twitter_timeline/drew'>Drew</a>
-        <a mat-list-item routerLink='/twitter_timeline/mary'>Mary</a>
-        <a mat-list-item routerLink='/twitter_timeline/patrick'>Patrick</a>
-      </mat-expansion-panel>
-      
-      <a mat-list-item routerLink="/stats/duders">Duders Stats</a>
-      <a mat-list-item routerLink="/stats/friends">Friends Stats</a>
-      <a mat-list-item routerLink="/twitter-stream">Twitter stream</a>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened role="navigation" [(opened)]="opened">
+      <mat-nav-list>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Duders Twitters
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <a mat-list-item routerLink="/twitter_timeline/jeff">Jeff</a>
+          <a mat-list-item routerLink='/twitter_timeline/alex'>Alex</a>
+          <a mat-list-item routerLink='/twitter_timeline/ben'>Ben</a>
+          <a mat-list-item routerLink='/twitter_timeline/abby'>Abby</a>
+          <a mat-list-item routerLink='/twitter_timeline/jason'>Jason</a>
+          <a mat-list-item routerLink='/twitter_timeline/jan'>Jan</a>
+          <a mat-list-item routerLink='/twitter_timeline/vinny'>Vinny</a>
+          <a mat-list-item routerLink='/twitter_timeline/dan'>Dan</a>
+          <a mat-list-item routerLink='/twitter_timeline/jeff-bakalar'>Jeff Bakalar</a>
+          <a mat-list-item routerLink='/twitter_timeline/rorie'>Rorie</a>
+        </mat-expansion-panel>
 
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Sound Boards
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-      <a mat-list-item routerLink="/sound-board/dan">Dan</a>
-      <a mat-list-item routerLink="/sound-board/jeff">Jeff</a>
-    </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Friends Twitters
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <a mat-list-item routerLink="/twitter_timeline/austin">Austin</a>
+          <a mat-list-item routerLink='/twitter_timeline/danny'>Danny</a>
+          <a mat-list-item routerLink='/twitter_timeline/drew'>Drew</a>
+          <a mat-list-item routerLink='/twitter_timeline/mary'>Mary</a>
+          <a mat-list-item routerLink='/twitter_timeline/patrick'>Patrick</a>
+        </mat-expansion-panel>
 
-    </mat-nav-list>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <button mat-button (click)="sidenav.toggle()">
-      <mat-icon svgIcon="reorder"></mat-icon>
-    </button>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Sound Boards
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <a mat-list-item routerLink="/sound-board/dan">Dan</a>
+          <a mat-list-item routerLink="/sound-board/jeff">Jeff</a>
+          <a mat-list-item routerLink="/sound-board/brad">Brad</a>
+        </mat-expansion-panel>
+
+        <a mat-list-item routerLink="/stats/duders">Duders Stats</a>
+        <a mat-list-item routerLink="/stats/friends">Friends Stats</a>
+
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <button mat-button (click)="sidenav.toggle()">
+        <mat-icon svgIcon="reorder"></mat-icon>
+      </button>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>

@@ -44,7 +44,7 @@ export class SoundBoardComponent implements OnInit {
     audio.src = source;
     audio.load();
     audio.play();
-    this.sendEvent('sound-board', "playAudio", clipName);
+  //  this.sendEvent('sound-board', "playAudio", clipName);
   }
 
   getImageUrl() {

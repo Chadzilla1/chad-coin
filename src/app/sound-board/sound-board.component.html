@@ -21,6 +21,8 @@
         <button mat-raised-button (click)="playAudio('dan/wack-off-for-free')">Wack off for free</button>
         <button mat-raised-button (click)="playAudio('dan/wack-off-into-a-cup')">Wack off into a cup</button>
       </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/yoshi-could-eat')">Yoshi could eat</button>
+      </mat-list-item>
     </mat-list>
   </div>
 
@@ -40,6 +42,21 @@
 
       <mat-list-item><button mat-raised-button (click)="playAudio('jeff/sheikh-zanzibar')">Sheikh Zanzibar</button>
         <button mat-raised-button (click)="playAudio('jeff/what-up-bitch')">What up bitch?</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+
+  <div *ngIf="'brad' === name">
+    <mat-list>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/shut-the-fuck-up')">Shut the fuck up</button>
+        <button mat-raised-button (click)="playAudio('brad/i-never-stop')">I never stop</button>
+        <button mat-raised-button (click)="playAudio('brad/just-one-more-game')">Just one more game</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/so-much-to-learn')">So much to learn</button>
+        <button mat-raised-button (click)="playAudio('brad/thinking-about-it')">Still thinking</button>
+        <button mat-raised-button (click)="playAudio('brad/umm')">Umm</button>
       </mat-list-item>
     </mat-list>
   </div>
@@ -74,13 +91,15 @@
       <mat-list-item> <button mat-raised-button (click)="playAudio('dan/wack-off-into-a-cup')">Wack off into a
           cup</button>
       </mat-list-item>
+      <mat-list-item> <button mat-raised-button (click)="playAudio('dan/yoshi-could-eat')">Yoshi could eat</button>
+      </mat-list-item>
     </mat-list>
   </div>
 
   <div *ngIf="'jeff' === name" class="jeff" [ngStyle]="{'background-image': getImageUrl()}">
     <mat-list>
       <mat-list-item>
-          <img [src]="assets/picture/bigger.png">
+        <img [src]="assets/picture/bigger.png">
         <button mat-raised-button (click)="playAudio('jeff/helmet-kruger-in-the-house')">Helmut Kruger in
           the
           house!</button></mat-list-item>
@@ -103,4 +122,27 @@
       </mat-list-item>
     </mat-list>
   </div>
+  <div *ngIf="'brad' === name">
+    <mat-list>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/shut-the-fuck-up')">Shut the fuck up</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/i-never-stop')">I never stop</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/just-one-more-game')">Just one more game</button>
+      </mat-list-item>  
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/so-much-to-learn')">So much to learn</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/thinking-about-it')">Still thinking</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-raised-button (click)="playAudio('brad/umm')">Umm</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+  
 </div>
