@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,9 +14,17 @@ export class TwitterService {
 
   constructor(private http: HttpClient) { }
 
+  filterStatuses(name: string): Observable<any[]> {
+    return this.http
+      .get<any[]>(this.API_URL + '/statuses/filter/' + name)
+      .pipe(map(data => data));
+  }
+
+  //giant-bomb-angular-fresh/
   getJson(name: string) {
     let promise = new Promise((resolve, reject) => {
-      return this.http.get<[]>('../../assets/' + name + '.json')
+      //  return this.http.get<[]>('../../assets/' + name + '.json')
+      return this.http.get<[]>('../../giant-bomb-angular-fresh/assets/' + name + '.json')
         .pipe(map(data => data)).toPromise().then(
           res => {
             console.log(res);

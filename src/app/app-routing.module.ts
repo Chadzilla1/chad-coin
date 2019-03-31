@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TwitterTimelineComponent } from './twitter-timeline/twitter-timeline.component';
 import { StatsComponent } from './stats/stats.component';
+import { TwitterStreamComponent } from './twitter-stream/twitter-stream.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,10 @@ const routes: Routes = [
   {
     path: 'sound-board/:name',
     component: SoundBoardComponent
+  },
+  {
+    path: 'twitter-stream',
+    component: TwitterStreamComponent
   },
   {
     path: '',

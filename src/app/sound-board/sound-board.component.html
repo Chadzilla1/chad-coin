@@ -57,7 +57,7 @@
 
       <mat-list-item><button mat-raised-button (click)="playAudio('dan/cave-men')">Cave men?</button></mat-list-item>
       <mat-list-item><button mat-raised-button (click)="playAudio('dan/cows-and-cattle')">Cows and
-        cattle?</button></mat-list-item>
+          cattle?</button></mat-list-item>
       <mat-list-item> <button mat-raised-button (click)="playAudio('dan/cows-existed')">Cows existed back then?</button>
       </mat-list-item>
 
@@ -77,9 +77,11 @@
     </mat-list>
   </div>
 
-  <div *ngIf="'jeff' === name">
+  <div *ngIf="'jeff' === name" class="jeff" [ngStyle]="{'background-image': getImageUrl()}">
     <mat-list>
-      <mat-list-item><button mat-raised-button (click)="playAudio('jeff/helmet-kruger-in-the-house')">Helmut Kruger in
+      <mat-list-item>
+          <img [src]="assets/picture/bigger.png">
+        <button mat-raised-button (click)="playAudio('jeff/helmet-kruger-in-the-house')">Helmut Kruger in
           the
           house!</button></mat-list-item>
       <mat-list-item> <button mat-raised-button (click)="playAudio('jeff/did-you-see')">Did you see?</button>
@@ -97,7 +99,7 @@
       <mat-list-item><button mat-raised-button (click)="playAudio('jeff/sheikh-zanzibar')">Sheikh Zanzibar</button>
       </mat-list-item>
       <mat-list-item><button mat-raised-button (click)="playAudio('jeff/what-up-bitch')">What up
-        bitch?</button>
+          bitch?</button>
       </mat-list-item>
     </mat-list>
   </div>
