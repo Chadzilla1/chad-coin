@@ -22,6 +22,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatSelectModule} from '@angular/material/select';
 import { SoundBoardComponent } from './sound-board/sound-board.component';
 import { TwitterStreamComponent } from './twitter-stream/twitter-stream.component';
+import { SocketService } from './socket-service.service';
 
 
 @NgModule({
@@ -53,7 +54,7 @@ import { TwitterStreamComponent } from './twitter-stream/twitter-stream.componen
     MatSelectModule,
     
   ],
-  providers: [TwitterService, HttpClientModule],
+  providers: [TwitterService, HttpClientModule, SocketService],
   bootstrap: [AppComponent]
 })
 

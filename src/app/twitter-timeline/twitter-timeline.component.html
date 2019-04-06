@@ -11,13 +11,13 @@
   </mat-card-content>
 </mat-card>
  -->
- <mat-form-field>
+ <!-- <mat-form-field>
   <mat-select placeholder="Tweet Limit" [(value)]="selected">
     <mat-option *ngFor="let option of options" [value]="option.value">
       {{option.viewValue}}
     </mat-option>
   </mat-select>
-</mat-form-field>
+</mat-form-field> -->
 <div *ngIf="undefined === name">Loading...</div>
 <div *ngIf="'jeff' === name">
   <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/jeffgerstmann'}" [opts]="'{tweetLimit: 5}'">
