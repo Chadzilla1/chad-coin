@@ -1,0 +1,23 @@
+<div class="my-div">
+  <button mat-raised-button (click)="getReddit()">Refresh</button>
+</div>
+<div>
+  <mat-card class="my-card-class" *ngFor="let post of posts">
+    <mat-card-header>
+      <!--     <div mat-card-avatar class="example-header-image"><img src={{tweet?.user?.profile_image_url}}></div>-->
+      <mat-card-title>{{post.data.title}}</mat-card-title>
+      <mat-card-subtitle>
+        {{post.data.author}}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <div *ngIf="post.data.thumbnail != 'self'">
+        <img mat-card-image class="my-img-class" src={{post.data.thumbnail}}>
+      </div>
+    <mat-card-content>
+      <p class="my-content-class">{{post.data.selftext}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <p class="my-action-class">Upvotes: {{post.data.ups}} Downvotes: {{post.data.downs}} Comments: {{post.data.num_comments}}
+    </mat-card-actions>
+  </mat-card>
+</div>

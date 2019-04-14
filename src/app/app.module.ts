@@ -23,6 +23,10 @@ import {MatSelectModule} from '@angular/material/select';
 import { SoundBoardComponent } from './sound-board/sound-board.component';
 import { TwitterStreamComponent } from './twitter-stream/twitter-stream.component';
 import { SocketService } from './socket-service.service';
+import { NgxLinkifyjsModule } from 'ngx-linkifyjs';
+import { RedditComponent } from './reddit/reddit.component';
+import { TwitterComponent } from './twitter/twitter.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -32,6 +36,8 @@ import { SocketService } from './socket-service.service';
     StatsComponent,
     SoundBoardComponent,
     TwitterStreamComponent,
+    RedditComponent,
+    TwitterComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +58,9 @@ import { SocketService } from './socket-service.service';
     MatExpansionModule,
     MatTabsModule,
     MatSelectModule,
-    
+    NgxLinkifyjsModule.forRoot(),
+    MatGridListModule
+
   ],
   providers: [TwitterService, HttpClientModule, SocketService],
   bootstrap: [AppComponent]

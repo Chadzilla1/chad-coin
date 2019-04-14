@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { TwitterTimelineComponent } from './twitter-timeline/twitter-timeline.component';
 import { StatsComponent } from './stats/stats.component';
 import { TwitterStreamComponent } from './twitter-stream/twitter-stream.component';
+import { RedditComponent } from './reddit/reddit.component';
+import { TwitterComponent } from './twitter/twitter.component';
 
 const routes: Routes = [
   {
@@ -34,6 +36,14 @@ const routes: Routes = [
   {
     path: 'twitter-stream',
     component: TwitterStreamComponent
+  },
+  {
+    path: 'reddit',
+    component: RedditComponent
+  },
+  {
+    path: 'twitter',
+    component: TwitterComponent
   },
   {
     path: '',

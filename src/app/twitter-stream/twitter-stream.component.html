@@ -1,3 +1,51 @@
-<p>
-  twitter-stream works!
-</p>
+<div *ngIf="tweets != undefined" [@fadeInDown]="fadeInDown">
+  <mat-card class="my-card-class" *ngFor="let tweet of tweets" [@fadeInDown]="fadeInDown">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"><img src={{tweet?.user?.profile_image_url}}></div>
+      <mat-card-title>{{tweet.user.name}}</mat-card-title>
+      <mat-card-subtitle>
+        {{tweet.user.location}}
+      </mat-card-subtitle>
+    </mat-card-header>
+<!--     <img mat-card-image class="my-img-class" src={{tweet?.extended_entities?.media[0]?.media_url}}>
+     <img mat-card-image class="my-img-class" src={{tweet?.extended_tweet?.entities?.media[0]?.media_url}}>
+    <img mat-card-image class="my-img-class" src={{tweet?.quoted_status?.extended_entities?.media[0]?.media_url}}>
+    <img mat-card-image class="my-img-class" src={{tweet?.retweeted_status?.extended_tweet?.extended_entities?.media[0]?.media_url}}>
+-->
+<div *ngIf="tweet?.extended_entities?.media[0]?.media_url != undefined">
+  <img mat-card-image class="my-img-class" src={{tweet?.extended_entities?.media[0]?.media_url}}>
+</div>
+<div *ngIf="tweet?.retweeted_status?.extended_entities?.media[0]?.media_url != undefined">
+  <img mat-card-image class="my-img-class" src={{tweet.retweeted_status.extended_entities.media[0].media_url}}>
+</div>
+
+    <mat-card-content>
+<!--       <span [innerHTML]={{tweet.text }}
+ -->      
+     <p *ngIf="tweet.extended_tweet.full_text != undefined; else normalText">{{tweet?.extended_tweet.full_text}} </p>
+     <ng-template #normalText>{{tweet?.text}}</ng-template>    
+<!--       <p>{{tweet?.text}} </p>
+ -->      <p>{{tweet?.retweeted_status?.text}}</p>
+      <p *ngIf="tweet.retweeted_status != undefined">Favourites: {{tweet?.retweeted_status?.favorite_count}} Replies:
+        {{tweet?.retweeted_status?.reply_count}} Retweets: {{tweet?.retweeted_status?.retweet_count}}</p>
+        <p *ngIf="tweet.quoted_status != undefined"> {{tweet.quoted_status.text}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <p>Favourites: {{tweet.favorite_count}} Replies: {{tweet.reply_count}} Retweets: {{tweet.retweet_count}}</p>
+    </mat-card-actions>
+  </mat-card>
+  <!-- <div *ngIf="{{tweet.extended_entities.media[0].media_url}} != undefined">/div> -->
+</div>
+
+
+
+
+<!-- <img src="http://pbs.twimg.com/media/D3ec4X7XkAIGDf8.jpg">
+ -->
+<!-- <mat-form-field>
+  <mat-select placeholder="Tweet Limit" [(value)]="selected">
+    <mat-option *ngFor="let option of options" [value]="option.value">
+      {{option.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>  -->

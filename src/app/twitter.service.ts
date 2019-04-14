@@ -23,8 +23,8 @@ export class TwitterService {
   //giant-bomb-angular-fresh/
   getJson(name: string) {
     let promise = new Promise((resolve, reject) => {
-     // return this.http.get<[]>('../../assets/' + name + '.json')
-     return this.http.get<[]>('../../giant-bomb-angular-fresh/assets/' + name + '.json')
+      return this.http.get<[]>('../../assets/' + name + '.json')
+     //return this.http.get<[]>('../../giant-bomb-angular-fresh/assets/' + name + '.json')
         .pipe(map(data => data)).toPromise().then(
           res => {
             console.log(res);
