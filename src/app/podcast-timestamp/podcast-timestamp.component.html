@@ -1,0 +1,41 @@
+<div>
+  <mat-form-field class="input-1">
+    <input matInput (keyup.enter)="applyFilter($event.target.value)" placeholder="Search bombcast episode names">
+  </mat-form-field>
+  <mat-form-field class="input-1">
+    <input matInput (keyup.enter)="applyFilterTopics($event.target.value)" placeholder="Search bombcast topics">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="resetFilters()">
+      Reset Filters
+    </button>
+
+</div>
+
+<div *ngIf="podcastTimestamps.length > 0">
+  <table mat-table [dataSource]="dataSource" multiTemplateDataRows class="mat-elevation-z8">
+    <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
+      <td mat-cell *matCellDef="let element"> <a href="{{element.link}}" target="_blank"> {{element.title}}</a></td>
+
+    </ng-container>
+
+    <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
+    <ng-container matColumnDef="expandedDetail">
+      <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
+        <div class="example-element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+          <div class="example-element-diagram">
+            <div *ngFor="let t of element.parsedTimestamps" class="example-element-timestamps">
+              <a *ngIf="t" href="{{parseYtLink(element.link) +'?t=' +t[0]}}" target="_blank">
+                {{t[1]}}</a>
+            </div>
+          </div>
+        </div>
+      </td>
+    </ng-container>
+
+    <tr mat-row *matRowDef="let element; columns: columnsToDisplay;" class="example-element-row"
+      [class.example-expanded-row]="expandedElement === element"
+      (click)="expandedElement = expandedElement === element ? null : element">
+    </tr>
+    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr>
+  </table>
+</div>

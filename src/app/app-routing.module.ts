@@ -6,6 +6,7 @@ import { StatsComponent } from './stats/stats.component';
 import { TwitterStreamComponent } from './twitter-stream/twitter-stream.component';
 import { RedditComponent } from './reddit/reddit.component';
 import { TwitterComponent } from './twitter/twitter.component';
+import { PodcastTimestampComponent } from './podcast-timestamp/podcast-timestamp.component';
 
 const routes: Routes = [
   {
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
     path: 'twitter',
     component: TwitterComponent
+  },
+  {
+    path: 'bombcast-timestamps',
+    component: PodcastTimestampComponent
   },
   {
     path: '',
