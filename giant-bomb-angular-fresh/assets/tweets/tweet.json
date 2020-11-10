@@ -1,0 +1,456 @@
+{
+    "created_at": "Sat Apr 06 13:36:21 +0000 2019",
+    "id": 1114522232649330700,
+    "id_str": "1114522232649330689",
+    "text": "RT @RonySanLop: #BuenosDías #Cuba #enprevencion #Venezuela #Operación #Folloback #Recipes #SabadoDeGanarSeguidores… https://t.co/ltfjyDN6ma",
+    "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 784278613164068900,
+        "id_str": "784278613164068864",
+        "name": "Nitin Ranjan",
+        "screen_name": "me_nranjan",
+        "location": "New Delhi, India",
+        "url": null,
+        "description": "The Future Of Cryptocurrency. A cryptocurrency is a digital currency that is created and managed through the use of advanced encryption technique's.",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 269,
+        "friends_count": 1183,
+        "listed_count": 3,
+        "favourites_count": 1720,
+        "statuses_count": 45940,
+        "created_at": "Fri Oct 07 06:26:07 +0000 2016",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/784281871370694657/KMNLqnZr_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/784281871370694657/KMNLqnZr_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/784278613164068864/1475822330",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+        "full_text": "RT @RonySanLop: #BuenosDías #Cuba #enprevencion #Venezuela #Operación #Folloback #Recipes #SabadoDeGanarSeguidores #Madrid #Premier #NicolásMaduro #Gasolina #SIGUEMEYTESIGO #Chacaíto #PNB #6Abr \nAlfajor de mango y ananá https://t.co/cjsZPOQful",
+        "display_text_range": [
+            0,
+            243
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "BuenosDías",
+                    "indices": [
+                        16,
+                        27
+                    ]
+                },
+                {
+                    "text": "Cuba",
+                    "indices": [
+                        28,
+                        33
+                    ]
+                },
+                {
+                    "text": "enprevencion",
+                    "indices": [
+                        34,
+                        47
+                    ]
+                },
+                {
+                    "text": "Venezuela",
+                    "indices": [
+                        48,
+                        58
+                    ]
+                },
+                {
+                    "text": "Operación",
+                    "indices": [
+                        59,
+                        69
+                    ]
+                },
+                {
+                    "text": "Folloback",
+                    "indices": [
+                        70,
+                        80
+                    ]
+                },
+                {
+                    "text": "Recipes",
+                    "indices": [
+                        81,
+                        89
+                    ]
+                },
+                {
+                    "text": "SabadoDeGanarSeguidores",
+                    "indices": [
+                        90,
+                        114
+                    ]
+                },
+                {
+                    "text": "Madrid",
+                    "indices": [
+                        115,
+                        122
+                    ]
+                },
+                {
+                    "text": "Premier",
+                    "indices": [
+                        123,
+                        131
+                    ]
+                },
+                {
+                    "text": "NicolásMaduro",
+                    "indices": [
+                        132,
+                        146
+                    ]
+                },
+                {
+                    "text": "Gasolina",
+                    "indices": [
+                        147,
+                        156
+                    ]
+                },
+                {
+                    "text": "SIGUEMEYTESIGO",
+                    "indices": [
+                        157,
+                        172
+                    ]
+                },
+                {
+                    "text": "Chacaíto",
+                    "indices": [
+                        173,
+                        182
+                    ]
+                },
+                {
+                    "text": "PNB",
+                    "indices": [
+                        183,
+                        187
+                    ]
+                },
+                {
+                    "text": "6Abr",
+                    "indices": [
+                        188,
+                        193
+                    ]
+                }
+            ],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "RonySanLop",
+                    "name": "_Ronny Sánchez_",
+                    "id": 1516571274,
+                    "id_str": "1516571274",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "symbols": [],
+            "media": [
+                {
+                    "id": 1114516973533179900,
+                    "id_str": "1114516973533179904",
+                    "indices": [
+                        220,
+                        243
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/D3ePSE-WsAA5dRI.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/D3ePSE-WsAA5dRI.jpg",
+                    "url": "https://t.co/cjsZPOQful",
+                    "display_url": "pic.twitter.com/cjsZPOQful",
+                    "expanded_url": "https://twitter.com/RonySanLop/status/1114517025655857155/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1114517025655857200,
+                    "source_status_id_str": "1114517025655857155",
+                    "source_user_id": 1516571274,
+                    "source_user_id_str": "1516571274"
+                },
+                {
+                    "id": 1114516973549957100,
+                    "id_str": "1114516973549957120",
+                    "indices": [
+                        220,
+                        243
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/D3ePSFCWsAAVMbt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/D3ePSFCWsAAVMbt.jpg",
+                    "url": "https://t.co/cjsZPOQful",
+                    "display_url": "pic.twitter.com/cjsZPOQful",
+                    "expanded_url": "https://twitter.com/RonySanLop/status/1114517025655857155/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 448,
+                            "h": 697,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 437,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 448,
+                            "h": 697,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1114517025655857200,
+                    "source_status_id_str": "1114517025655857155",
+                    "source_user_id": 1516571274,
+                    "source_user_id_str": "1516571274"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1114516973533179900,
+                    "id_str": "1114516973533179904",
+                    "indices": [
+                        220,
+                        243
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/D3ePSE-WsAA5dRI.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/D3ePSE-WsAA5dRI.jpg",
+                    "url": "https://t.co/cjsZPOQful",
+                    "display_url": "pic.twitter.com/cjsZPOQful",
+                    "expanded_url": "https://twitter.com/RonySanLop/status/1114517025655857155/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 574,
+                            "h": 644,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1114517025655857200,
+                    "source_status_id_str": "1114517025655857155",
+                    "source_user_id": 1516571274,
+                    "source_user_id_str": "1516571274"
+                },
+                {
+                    "id": 1114516973549957100,
+                    "id_str": "1114516973549957120",
+                    "indices": [
+                        220,
+                        243
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/D3ePSFCWsAAVMbt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/D3ePSFCWsAAVMbt.jpg",
+                    "url": "https://t.co/cjsZPOQful",
+                    "display_url": "pic.twitter.com/cjsZPOQful",
+                    "expanded_url": "https://twitter.com/RonySanLop/status/1114517025655857155/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 448,
+                            "h": 697,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 437,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 448,
+                            "h": 697,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1114517025655857200,
+                    "source_status_id_str": "1114517025655857155",
+                    "source_user_id": 1516571274,
+                    "source_user_id_str": "1516571274"
+                }
+            ]
+        }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [
+            {
+                "text": "BuenosDías",
+                "indices": [
+                    16,
+                    27
+                ]
+            },
+            {
+                "text": "Cuba",
+                "indices": [
+                    28,
+                    33
+                ]
+            },
+            {
+                "text": "enprevencion",
+                "indices": [
+                    34,
+                    47
+                ]
+            },
+            {
+                "text": "Venezuela",
+                "indices": [
+                    48,
+                    58
+                ]
+            },
+            {
+                "text": "Operación",
+                "indices": [
+                    59,
+                    69
+                ]
+            },
+            {
+                "text": "Folloback",
+                "indices": [
+                    70,
+                    80
+                ]
+            },
+            {
+                "text": "Recipes",
+                "indices": [
+                    81,
+                    89
+                ]
+            },
+            {
+                "text": "SabadoDeGanarSeguidores",
+                "indices": [
+                    90,
+                    114
+                ]
+            }
+        ],
+        "urls": [
+            {
+                "url": "https://t.co/ltfjyDN6ma",
+                "expanded_url": "https://twitter.com/i/web/status/1114522232649330689",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                    116,
+                    139
+                ]
+            }
+        ],
+        "user_mentions": [
+            {
+                "screen_name": "RonySanLop",
+                "name": "_Ronny Sánchez_",
+                "id": 1516571274,
+                "id_str": "1516571274",
+                "indices": [
+                    3,
+                    14
+                ]
+            }
+        ],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "es",
+    "timestamp_ms": "1554557781742"
+}
